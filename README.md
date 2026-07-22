@@ -1,5 +1,5 @@
 # !LOOK IN THE WIKI AREA!
-
+## https://github.com/ThiagoIbrahimVieira/developer-portfolio/wiki
 
 
 # 🚀 Portfólio Pessoal - Thiago Ibrahim
