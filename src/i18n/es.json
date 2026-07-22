@@ -59,12 +59,22 @@
     "sectionTitle": "Proyectos",
     "viewProject": "Ver Proyecto",
     "viewCode": "Codigo",
+    "architecture": "Arquitectura",
+    "challenge": "Principal Desafio",
+    "lessons": "Aprendizajes",
+    "future": "Mejoras Futuras",
+    "details": "Detalles",
     "items": [
       {
         "name": "AI Interview Platform",
         "description": "Plataforma inteligente para practicar entrevistas tecnicas con retroalimentacion automatizada por IA.",
         "tech": ["Python", "AI/ML", "Backend"],
-        "status": "En Desarrollo"
+        "status": "En Desarrollo",
+        "github": "https://github.com/ThiagoIbrahimVieira",
+        "architecture": "API Backend con Python procesando modelos de IA para analisis de entrevistas y generacion de retroalimentacion.",
+        "challenge": "Implementar analisis en tiempo real con IA mientras mantenia baja latencia para una experiencia fluida.",
+        "lessons": "Profundice mi entendimiento de diseno de APIs, patrones de integracion con IA y procesamiento asincrono.",
+        "future": ["Analisis de voz en tiempo real", "Soporte multi-idioma", "Dashboard de progreso"]
       }
     ]
   },
@@ -72,20 +82,44 @@
     "sectionTitle": "Habilidades",
     "categories": [
       {
-        "name": "Lenguajes",
-        "items": ["Java", "Python", "TypeScript", "JavaScript"]
+        "name": "Programacion",
+        "icon": "Code2",
+        "items": [
+          { "name": "Java", "level": "Practicando", "description": "Programacion orientada a objetos y estructuras de datos" },
+          { "name": "Python", "level": "Aprendiendo", "description": "Scripting, aplicaciones de IA/ML" },
+          { "name": "TypeScript", "level": "Comodo", "description": "Desarrollo web con tipos" },
+          { "name": "JavaScript", "level": "Comodo", "description": "ES6 moderno y manipulacion del DOM" }
+        ]
       },
       {
         "name": "Backend",
-        "items": ["Node.js", "Spring Boot", "REST APIs", "Base de Datos"]
+        "icon": "Server",
+        "items": [
+          { "name": "REST APIs", "level": "Practicando", "description": "Diseno y consumo de servicios RESTful" },
+          { "name": "SQL", "level": "Aprendiendo", "description": "Diseno de bases relacionales y consultas" },
+          { "name": "Spring Boot", "level": "Futuro", "description": "Framework empresarial Java" },
+          { "name": "Docker", "level": "Futuro", "description": "Contenedorizacion y despliegue" }
+        ]
       },
       {
         "name": "Herramientas",
-        "items": ["Git", "GitHub", "VS Code", "Linux"]
+        "icon": "Wrench",
+        "items": [
+          { "name": "Git", "level": "Comodo", "description": "Control de versiones y colaboracion" },
+          { "name": "GitHub", "level": "Comodo", "description": "Repositorios, PRs y CI/CD" },
+          { "name": "VS Code", "level": "Comodo", "description": "Entorno de desarrollo principal" },
+          { "name": "Linux", "level": "Practicando", "description": "Linea de comandos y gestion de servidores" }
+        ]
       },
       {
         "name": "IA & ML",
-        "items": ["Machine Learning", "NLP", "Computer Vision", "Deep Learning"]
+        "icon": "BrainCircuit",
+        "items": [
+          { "name": "Machine Learning", "level": "Estudiando", "description": "Aprendizaje supervisado y no supervisado" },
+          { "name": "NLP", "level": "Aprendiendo", "description": "Tecnicas de procesamiento de lenguaje natural" },
+          { "name": "Computer Vision", "level": "Futuro", "description": "Reconocimiento y analisis de imagenes" },
+          { "name": "Deep Learning", "level": "Futuro", "description": "Redes neuronales y frameworks" }
+        ]
       }
     ]
   },
@@ -94,13 +128,33 @@
     "milestones": [
       {
         "period": "Inicio",
-        "title": "Primeros Pasos",
-        "description": "Comence el camino en la programacion, aprendiendo conceptos fundamentales y explorando diferentes lenguajes."
+        "title": "Primeros Pasos en Programacion",
+        "description": "Comence el camino en la programacion, aprendiendo conceptos fundamentales como variables, ciclos y logica."
+      },
+      {
+        "period": "Temprano",
+        "title": "Aprendiendo Java",
+        "description": "Me sumerji en Java, entendiendo sintaxis, tipos de datos y estructura basica de programas."
+      },
+      {
+        "period": "Creciendo",
+        "title": "Programacion Orientada a Objetos",
+        "description": "Domine los principios de OOP: clases, objetos, herencia, polimorfismo y encapsulamiento."
+      },
+      {
+        "period": "Construyendo",
+        "title": "Construyendo Proyectos Reales",
+        "description": "Aplique conocimientos construyendo proyectos practicos, aprendiendo control de versiones y flujos de desarrollo."
+      },
+      {
+        "period": "Expandiendo",
+        "title": "Estudiando Desarrollo Backend",
+        "description": "Explore APIs, bases de datos, arquitectura de servidores y diseno de sistemas escalables."
       },
       {
         "period": "Actual",
-        "title": "Enfoque en Backend & IA",
-        "description": "Profundizando conocimientos en Java, Python, arquitectura de software e Inteligencia Artificial."
+        "title": "Aprendiendo Python e IA",
+        "description": "Expandiendo hacia Python e Inteligencia Artificial, explorando machine learning y NLP."
       },
       {
         "period": "Futuro",
@@ -113,7 +167,18 @@
     "sectionTitle": "GitHub",
     "description": "Mira mis contribuciones y proyectos en GitHub.",
     "viewProfile": "Ver Perfil",
-    "username": "ThiagoIbrahimVieira"
+    "username": "ThiagoIbrahimVieira",
+    "repositories": "Repositorios",
+    "followers": "Seguidores",
+    "following": "Siguiendo",
+    "stars": "Estrellas",
+    "topLanguages": "Principales Lenguajes",
+    "recentRepos": "Repositorios Recientes",
+    "latestCommit": "Ultimo Commit",
+    "loading": "Cargando datos de GitHub...",
+    "error": "No se pudieron cargar los datos de GitHub.",
+    "repos": "repos",
+    "fork": "fork"
   },
   "contact": {
     "sectionTitle": "Contacto",
@@ -124,7 +189,12 @@
     "send": "Enviar",
     "sending": "Enviando...",
     "success": "Mensaje enviado con exito!",
-    "error": "Error al enviar el mensaje. Intenta de nuevo."
+    "error": "Error al enviar el mensaje. Intenta de nuevo.",
+    "nameRequired": "El nombre es obligatorio",
+    "emailRequired": "El email es obligatorio",
+    "emailInvalid": "Por favor, ingresa un email valido",
+    "messageRequired": "El mensaje es obligatorio",
+    "messageMin": "El mensaje debe tener al menos 10 caracteres"
   },
   "footer": {
     "copyright": "Thiago Ibrahim. Todos los derechos reservados.",

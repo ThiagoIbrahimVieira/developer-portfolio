@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
+import { createContext, useContext, useState, useCallback, useEffect, ReactNode } from 'react';
 import { Locale, getTranslations, locales } from './i18n';
 
 interface LanguageContextType {
@@ -27,6 +27,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('portfolio-locale', newLocale);
     document.documentElement.lang = newLocale;
   }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
 
   const t = getTranslations(locale);
 

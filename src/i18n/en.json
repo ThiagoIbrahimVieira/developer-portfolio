@@ -59,12 +59,22 @@
     "sectionTitle": "Projects",
     "viewProject": "View Project",
     "viewCode": "Code",
+    "architecture": "Architecture",
+    "challenge": "Main Challenge",
+    "lessons": "Lessons Learned",
+    "future": "Future Improvements",
+    "details": "Details",
     "items": [
       {
         "name": "AI Interview Platform",
         "description": "Intelligent platform to practice technical interviews with automated AI feedback.",
         "tech": ["Python", "AI/ML", "Backend"],
-        "status": "In Development"
+        "status": "In Development",
+        "github": "https://github.com/ThiagoIbrahimVieira",
+        "architecture": "Backend API with Python processing AI models for interview analysis and feedback generation.",
+        "challenge": "Implementing real-time AI analysis while maintaining low latency for a smooth interview experience.",
+        "lessons": "Deepened understanding of API design, AI integration patterns, and asynchronous processing.",
+        "future": ["Real-time speech analysis", "Multi-language support", "Progress tracking dashboard"]
       }
     ]
   },
@@ -72,20 +82,44 @@
     "sectionTitle": "Skills",
     "categories": [
       {
-        "name": "Languages",
-        "items": ["Java", "Python", "TypeScript", "JavaScript"]
+        "name": "Programming",
+        "icon": "Code2",
+        "items": [
+          { "name": "Java", "level": "Practicing", "description": "Object-oriented programming and data structures" },
+          { "name": "Python", "level": "Learning", "description": "Scripting, AI/ML applications" },
+          { "name": "TypeScript", "level": "Comfortable", "description": "Type-safe web development" },
+          { "name": "JavaScript", "level": "Comfortable", "description": "Modern ES6+ and DOM manipulation" }
+        ]
       },
       {
         "name": "Backend",
-        "items": ["Node.js", "Spring Boot", "REST APIs", "Database"]
+        "icon": "Server",
+        "items": [
+          { "name": "REST APIs", "level": "Practicing", "description": "Designing and consuming RESTful services" },
+          { "name": "SQL", "level": "Learning", "description": "Relational database design and queries" },
+          { "name": "Spring Boot", "level": "Future Goal", "description": "Enterprise Java framework" },
+          { "name": "Docker", "level": "Future Goal", "description": "Containerization and deployment" }
+        ]
       },
       {
-        "name": "Tools",
-        "items": ["Git", "GitHub", "VS Code", "Linux"]
+        "name": "Tools & Practices",
+        "icon": "Wrench",
+        "items": [
+          { "name": "Git", "level": "Comfortable", "description": "Version control and collaboration" },
+          { "name": "GitHub", "level": "Comfortable", "description": "Repositories, PRs, and CI/CD" },
+          { "name": "VS Code", "level": "Comfortable", "description": "Primary development environment" },
+          { "name": "Linux", "level": "Practicing", "description": "Command line and server management" }
+        ]
       },
       {
         "name": "AI & ML",
-        "items": ["Machine Learning", "NLP", "Computer Vision", "Deep Learning"]
+        "icon": "BrainCircuit",
+        "items": [
+          { "name": "Machine Learning", "level": "Currently Studying", "description": "Supervised and unsupervised learning" },
+          { "name": "NLP", "level": "Learning", "description": "Natural language processing techniques" },
+          { "name": "Computer Vision", "level": "Future Goal", "description": "Image recognition and analysis" },
+          { "name": "Deep Learning", "level": "Future Goal", "description": "Neural networks and frameworks" }
+        ]
       }
     ]
   },
@@ -94,13 +128,33 @@
     "milestones": [
       {
         "period": "Beginning",
-        "title": "First Steps",
-        "description": "Started the programming journey, learning fundamental concepts and exploring different languages."
+        "title": "First Steps in Programming",
+        "description": "Started the programming journey, learning fundamental concepts like variables, loops, and logic."
+      },
+      {
+        "period": "Early",
+        "title": "Learning Java Fundamentals",
+        "description": "Dived into Java, understanding syntax, data types, and basic program structure."
+      },
+      {
+        "period": "Growing",
+        "title": "Object-Oriented Programming",
+        "description": "Mastered OOP principles: classes, objects, inheritance, polymorphism, and encapsulation."
+      },
+      {
+        "period": "Building",
+        "title": "Building Real Projects",
+        "description": "Applied knowledge by building practical projects, learning version control and development workflows."
+      },
+      {
+        "period": "Expanding",
+        "title": "Studying Backend Development",
+        "description": "Explored APIs, databases, server architecture, and scalable system design."
       },
       {
         "period": "Current",
-        "title": "Focus on Backend & AI",
-        "description": "Deepening knowledge in Java, Python, software architecture and Artificial Intelligence."
+        "title": "Learning Python & AI",
+        "description": "Expanding into Python and Artificial Intelligence, exploring machine learning and NLP."
       },
       {
         "period": "Future",
@@ -113,7 +167,18 @@
     "sectionTitle": "GitHub",
     "description": "Check out my contributions and projects on GitHub.",
     "viewProfile": "View Profile",
-    "username": "ThiagoIbrahimVieira"
+    "username": "ThiagoIbrahimVieira",
+    "repositories": "Repositories",
+    "followers": "Followers",
+    "following": "Following",
+    "stars": "Stars",
+    "topLanguages": "Top Languages",
+    "recentRepos": "Recent Repositories",
+    "latestCommit": "Latest Commit",
+    "loading": "Loading GitHub data...",
+    "error": "Could not load GitHub data.",
+    "repos": "repos",
+    "fork": "fork"
   },
   "contact": {
     "sectionTitle": "Contact",
@@ -124,7 +189,12 @@
     "send": "Send",
     "sending": "Sending...",
     "success": "Message sent successfully!",
-    "error": "Error sending message. Please try again."
+    "error": "Error sending message. Please try again.",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email",
+    "messageRequired": "Message is required",
+    "messageMin": "Message must be at least 10 characters"
   },
   "footer": {
     "copyright": "Thiago Ibrahim. All rights reserved.",

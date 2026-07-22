@@ -59,12 +59,22 @@
     "sectionTitle": "Projetos",
     "viewProject": "Ver Projeto",
     "viewCode": "Codigo",
+    "architecture": "Arquitetura",
+    "challenge": "Principal Desafio",
+    "lessons": "Aprendizados",
+    "future": "Melhorias Futuras",
+    "details": "Detalhes",
     "items": [
       {
         "name": "AI Interview Platform",
-        "description": "Plataforma inteligente para praticar entrevistas技术nicas com feedback automatizado por IA.",
+        "description": "Plataforma inteligente para praticar entrevistas tecnicas com feedback automatizado por IA.",
         "tech": ["Python", "AI/ML", "Backend"],
-        "status": "Em desenvolvimento"
+        "status": "Em desenvolvimento",
+        "github": "https://github.com/ThiagoIbrahimVieira",
+        "architecture": "API Backend com Python processando modelos de IA para analise de entrevistas e geracao de feedback.",
+        "challenge": "Implementar analise em tempo real com IA enquanto mantinha latencia baixa para uma experiencia fluida.",
+        "lessons": "Aprofundei meu entendimento de design de APIs, padroes de integracao com IA e processamento assincrono.",
+        "future": ["Analise de fala em tempo real", "Suporte multi-idiomas", "Dashboard de progresso"]
       }
     ]
   },
@@ -72,20 +82,44 @@
     "sectionTitle": "Skills",
     "categories": [
       {
-        "name": "Linguagens",
-        "items": ["Java", "Python", "TypeScript", "JavaScript"]
+        "name": "Programacao",
+        "icon": "Code2",
+        "items": [
+          { "name": "Java", "level": "Praticando", "description": "Programacao orientada a objetos e estruturas de dados" },
+          { "name": "Python", "level": "Aprendendo", "description": "Scripting, aplicacoes de IA/ML" },
+          { "name": "TypeScript", "level": "Confortavel", "description": "Desenvolvimento web com tipos" },
+          { "name": "JavaScript", "level": "Confortavel", "description": "ES6 moderno e manipulacao do DOM" }
+        ]
       },
       {
         "name": "Backend",
-        "items": ["Node.js", "Spring Boot", "REST APIs", "Banco de Dados"]
+        "icon": "Server",
+        "items": [
+          { "name": "REST APIs", "level": "Praticando", "description": "Design e consumo de servicos RESTful" },
+          { "name": "SQL", "level": "Aprendendo", "description": "Design de banco relacional e consultas" },
+          { "name": "Spring Boot", "level": "Futuro", "description": "Framework empresarial Java" },
+          { "name": "Docker", "level": "Futuro", "description": "Containerizacao e deploy" }
+        ]
       },
       {
         "name": "Ferramentas",
-        "items": ["Git", "GitHub", "VS Code", "Linux"]
+        "icon": "Wrench",
+        "items": [
+          { "name": "Git", "level": "Confortavel", "description": "Controle de versao e colaboracao" },
+          { "name": "GitHub", "level": "Confortavel", "description": "Repositorios, PRs e CI/CD" },
+          { "name": "VS Code", "level": "Confortavel", "description": "Ambiente de desenvolvimento principal" },
+          { "name": "Linux", "level": "Praticando", "description": "Linha de comando e gerenciamento de servidores" }
+        ]
       },
       {
         "name": "IA & ML",
-        "items": ["Machine Learning", "NLP", "Computer Vision", "Deep Learning"]
+        "icon": "BrainCircuit",
+        "items": [
+          { "name": "Machine Learning", "level": "Estudando", "description": "Aprendizado supervisionado e nao-supervisionado" },
+          { "name": "NLP", "level": "Aprendendo", "description": "Tecnicas de processamento de linguagem natural" },
+          { "name": "Computer Vision", "level": "Futuro", "description": "Reconhecimento e analise de imagens" },
+          { "name": "Deep Learning", "level": "Futuro", "description": "Redes neurais e frameworks" }
+        ]
       }
     ]
   },
@@ -94,13 +128,33 @@
     "milestones": [
       {
         "period": "Inicio",
-        "title": "Primeiros Passos",
-        "description": "Comecei a jornada na programacao, aprendendo conceitos fundamentais e explorando diferentes linguagens."
+        "title": "Primeiros Passos na Programacao",
+        "description": "Comecei a jornada na programacao, aprendendo conceitos fundamentais como variaveis, loops e logica."
+      },
+      {
+        "period": "Cedo",
+        "title": "Aprendendo Java",
+        "description": "Aprofundei em Java, entendendo sintaxe, tipos de dados e estrutura basica de programas."
+      },
+      {
+        "period": "Crescendo",
+        "title": "Programacao Orientada a Objetos",
+        "description": "Dominei principios de OOP: classes, objetos, heranca, polimorfismo e encapsulamento."
+      },
+      {
+        "period": "Construindo",
+        "title": "Construindo Projetos Reais",
+        "description": "Apliquei conhecimento construindo projetos praticos, aprendendo controle de versao e fluxos de desenvolvimento."
+      },
+      {
+        "period": "Expandindo",
+        "title": "Estudando Desenvolvimento Backend",
+        "description": "Explorei APIs, bancos de dados, arquitetura de servidores e design de sistemas escalaveis."
       },
       {
         "period": "Atual",
-        "title": "Foco em Backend & IA",
-        "description": "Aprofundando conhecimento em Java, Python, arquitetura de software e Inteligencia Artificial."
+        "title": "Aprendendo Python e IA",
+        "description": "Expandindo para Python e Inteligencia Artificial, explorando machine learning e NLP."
       },
       {
         "period": "Futuro",
@@ -113,7 +167,18 @@
     "sectionTitle": "GitHub",
     "description": "Confira meus contribuicoes e projetos no GitHub.",
     "viewProfile": "Ver Perfil",
-    "username": "ThiagoIbrahimVieira"
+    "username": "ThiagoIbrahimVieira",
+    "repositories": "Repositorios",
+    "followers": "Seguidores",
+    "following": "Seguindo",
+    "stars": "Estrelas",
+    "topLanguages": "Principais Linguagens",
+    "recentRepos": "Repositorios Recentes",
+    "latestCommit": "Ultimo Commit",
+    "loading": "Carregando dados do GitHub...",
+    "error": "Nao foi possivel carregar dados do GitHub.",
+    "repos": "repos",
+    "fork": "fork"
   },
   "contact": {
     "sectionTitle": "Contato",
@@ -124,7 +189,12 @@
     "send": "Enviar",
     "sending": "Enviando...",
     "success": "Mensagem enviada com sucesso!",
-    "error": "Erro ao enviar mensagem. Tente novamente."
+    "error": "Erro ao enviar mensagem. Tente novamente.",
+    "nameRequired": "Nome e obrigatorio",
+    "emailRequired": "Email e obrigatorio",
+    "emailInvalid": "Por favor, insira um email valido",
+    "messageRequired": "Mensagem e obrigatoria",
+    "messageMin": "Mensagem deve ter pelo menos 10 caracteres"
   },
   "footer": {
     "copyright": "Thiago Ibrahim. Todos os direitos reservados.",

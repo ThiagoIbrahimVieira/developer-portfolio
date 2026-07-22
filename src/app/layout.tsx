@@ -12,6 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://thiagoibrahim.dev'),
   title: {
     default: "Thiago Ibrahim | Software Developer",
     template: "%s | Thiago Ibrahim",
@@ -79,6 +80,7 @@ export default function RootLayout({
     <html lang="pt" className={`${inter.variable} antialiased`} suppressHydrationWarning>
       <head>
         <link rel="canonical" href="https://thiagoibrahim.dev" />
+        <link rel="preconnect" href="https://api.github.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -100,10 +102,16 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-bg-primary text-text-primary">
+      <body className="min-h-screen flex flex-col bg-bg-primary text-text-primary noise-overlay">
+        <div className="fixed inset-0 grid-pattern pointer-events-none" aria-hidden="true" />
+        <div className="fixed inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
+          <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-accent/[0.03] rounded-full blur-3xl" />
+          <div className="absolute top-1/2 -left-40 w-[500px] h-[500px] bg-accent/[0.02] rounded-full blur-3xl" />
+          <div className="absolute -bottom-40 right-1/4 w-[400px] h-[400px] bg-accent/[0.025] rounded-full blur-3xl" />
+        </div>
         <LanguageProvider>
           <Navbar />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 relative z-10">{children}</main>
           <Footer />
         </LanguageProvider>
       </body>

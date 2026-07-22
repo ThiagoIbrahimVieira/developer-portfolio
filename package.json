@@ -1,7 +1,9 @@
 {
-  "name": "portfolio-temp",
-  "version": "0.1.0",
+  "name": "portfolio",
+  "version": "2.0.0",
   "private": true,
+  "description": "Thiago Ibrahim's software developer portfolio",
+  "author": "Thiago Ibrahim",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +11,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.42.2",
     "lucide-react": "^1.25.0",
