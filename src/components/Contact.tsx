@@ -64,10 +64,10 @@ export default function Contact() {
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         {
-          from_name: formData.name,
-          from_email: formData.email,
+          user_name: formData.name,
+          user_email: formData.email,
+          title: formData.name,
           message: formData.message,
-          to_email: 'thiagoibrahimvieira@gmail.com',
         },
         { publicKey: EMAILJS_PUBLIC_KEY }
       );
