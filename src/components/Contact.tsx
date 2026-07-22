@@ -39,7 +39,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-text-tertiary text-xs uppercase tracking-wider">Email</p>
-                <p className="text-text-primary text-sm">contato@thiagoibrahim.dev</p>
+                <p className="text-text-primary text-sm">thiagoibrahimvieira@gmail.com</p>
               </div>
             </div>
 
