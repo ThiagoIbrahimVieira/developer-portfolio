@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "journey": "Journey",
+    "github": "GitHub",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Thiago Ibrahim",
+    "fullName": "Thiago Ibrahim Branco Nardo Vieira",
+    "titles": [
+      "Software Developer",
+      "Backend Developer",
+      "AI Enthusiast"
+    ],
+    "tagline": "Building modern solutions with programming and Artificial Intelligence.",
+    "primaryCta": "View Projects",
+    "secondaryCta": "GitHub"
+  },
+  "about": {
+    "sectionTitle": "About Me",
+    "description": "I'm a Brazilian student passionate about technology and software development. Currently focused on Backend Development, Software Architecture and Artificial Intelligence, I always seek to learn and evolve through practical projects and real-world applications.",
+    "goal": "Become a Software Engineer capable of building complete products using software engineering and AI.",
+    "highlights": [
+      {
+        "title": "Dedicated Student",
+        "description": "Learning Java and Python to build a solid foundation in programming."
+      },
+      {
+        "title": "Backend Focused",
+        "description": "Interested in software architecture, scalable systems and development best practices."
+      },
+      {
+        "title": "AI Enthusiast",
+        "description": "Exploring how Artificial Intelligence can solve real problems and create innovative solutions."
+      }
+    ]
+  },
+  "status": {
+    "sectionTitle": "Current Status",
+    "studying": {
+      "title": "Studying",
+      "items": ["Java", "Python (Learning)", "Software Architecture", "Backend Development", "Artificial Intelligence"]
+    },
+    "building": {
+      "title": "Building",
+      "items": ["AI Interview Platform"]
+    },
+    "goal": {
+      "title": "Goal",
+      "description": "Create useful, scalable and modern software solutions."
+    }
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "viewProject": "View Project",
+    "viewCode": "Code",
+    "items": [
+      {
+        "name": "AI Interview Platform",
+        "description": "Intelligent platform to practice technical interviews with automated AI feedback.",
+        "tech": ["Python", "AI/ML", "Backend"],
+        "status": "In Development"
+      }
+    ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "categories": [
+      {
+        "name": "Languages",
+        "items": ["Java", "Python", "TypeScript", "JavaScript"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "Spring Boot", "REST APIs", "Database"]
+      },
+      {
+        "name": "Tools",
+        "items": ["Git", "GitHub", "VS Code", "Linux"]
+      },
+      {
+        "name": "AI & ML",
+        "items": ["Machine Learning", "NLP", "Computer Vision", "Deep Learning"]
+      }
+    ]
+  },
+  "journey": {
+    "sectionTitle": "Learning Journey",
+    "milestones": [
+      {
+        "period": "Beginning",
+        "title": "First Steps",
+        "description": "Started the programming journey, learning fundamental concepts and exploring different languages."
+      },
+      {
+        "period": "Current",
+        "title": "Focus on Backend & AI",
+        "description": "Deepening knowledge in Java, Python, software architecture and Artificial Intelligence."
+      },
+      {
+        "period": "Future",
+        "title": "Software Engineer",
+        "description": "Building complete, scalable products with real impact using software engineering and AI."
+      }
+    ]
+  },
+  "github": {
+    "sectionTitle": "GitHub",
+    "description": "Check out my contributions and projects on GitHub.",
+    "viewProfile": "View Profile",
+    "username": "ThiagoIbrahimVieira"
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "description": "Have a question or want to work together? Get in touch!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again."
+  },
+  "footer": {
+    "copyright": "Thiago Ibrahim. All rights reserved.",
+    "builtWith": "Built with Next.js & Tailwind CSS"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  }
+}

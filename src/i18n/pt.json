@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Skills",
+    "journey": "Jornada",
+    "github": "GitHub",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Ola, eu sou",
+    "name": "Thiago Ibrahim",
+    "fullName": "Thiago Ibrahim Branco Nardo Vieira",
+    "titles": [
+      "Software Developer",
+      "Backend Developer",
+      "AI Enthusiast"
+    ],
+    "tagline": "Construindo solucoes modernas com programacao e Inteligencia Artificial.",
+    "primaryCta": "Ver Projetos",
+    "secondaryCta": "GitHub"
+  },
+  "about": {
+    "sectionTitle": "Sobre Mim",
+    "description": "Sou estudante brasileiro apaixonado por tecnologia e construcao de software. Atualmente focado em desenvolvimento Backend, Arquitetura de Software e Inteligencia Artificial, busco sempre aprender e evoluir atraves de projetos praticos e aplicacoes reais.",
+    "goal": "Me tornar um Engenheiro de Software capaz de construir produtos completos usando engenharia de software e IA.",
+    "highlights": [
+      {
+        "title": "Estudante Dedidado",
+        "description": "Aprendendo Java e Python para construir uma base solida em programacao."
+      },
+      {
+        "title": "Foco em Backend",
+        "description": "Interessado em arquitetura de software, sistemas escalaveis e boas praticas de desenvolvimento."
+      },
+      {
+        "title": "Entusiasta de IA",
+        "description": "Explorando como Inteligencia Artificial pode resolver problemas reais e criar solucoes inovadoras."
+      }
+    ]
+  },
+  "status": {
+    "sectionTitle": "Status Atual",
+    "studying": {
+      "title": "Estudando",
+      "items": ["Java", "Python (Aprendendo)", "Arquitetura de Software", "Desenvolvimento Backend", "Inteligencia Artificial"]
+    },
+    "building": {
+      "title": "Construindo",
+      "items": ["Plataforma de Entrevistas com IA"]
+    },
+    "goal": {
+      "title": "Objetivo",
+      "description": "Criar solucoes de software uteis, escalaveis e modernas."
+    }
+  },
+  "projects": {
+    "sectionTitle": "Projetos",
+    "viewProject": "Ver Projeto",
+    "viewCode": "Codigo",
+    "items": [
+      {
+        "name": "AI Interview Platform",
+        "description": "Plataforma inteligente para praticar entrevistas技术nicas com feedback automatizado por IA.",
+        "tech": ["Python", "AI/ML", "Backend"],
+        "status": "Em desenvolvimento"
+      }
+    ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "categories": [
+      {
+        "name": "Linguagens",
+        "items": ["Java", "Python", "TypeScript", "JavaScript"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "Spring Boot", "REST APIs", "Banco de Dados"]
+      },
+      {
+        "name": "Ferramentas",
+        "items": ["Git", "GitHub", "VS Code", "Linux"]
+      },
+      {
+        "name": "IA & ML",
+        "items": ["Machine Learning", "NLP", "Computer Vision", "Deep Learning"]
+      }
+    ]
+  },
+  "journey": {
+    "sectionTitle": "Jornada de Aprendizado",
+    "milestones": [
+      {
+        "period": "Inicio",
+        "title": "Primeiros Passos",
+        "description": "Comecei a jornada na programacao, aprendendo conceitos fundamentais e explorando diferentes linguagens."
+      },
+      {
+        "period": "Atual",
+        "title": "Foco em Backend & IA",
+        "description": "Aprofundando conhecimento em Java, Python, arquitetura de software e Inteligencia Artificial."
+      },
+      {
+        "period": "Futuro",
+        "title": "Engenheiro de Software",
+        "description": "Construindo produtos completos, escalaveis e com impacto real usando engenharia de software e IA."
+      }
+    ]
+  },
+  "github": {
+    "sectionTitle": "GitHub",
+    "description": "Confira meus contribuicoes e projetos no GitHub.",
+    "viewProfile": "Ver Perfil",
+    "username": "ThiagoIbrahimVieira"
+  },
+  "contact": {
+    "sectionTitle": "Contato",
+    "description": "Tem uma pergunta ou quer trabalhar juntos? Entre em contato!",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso!",
+    "error": "Erro ao enviar mensagem. Tente novamente."
+  },
+  "footer": {
+    "copyright": "Thiago Ibrahim. Todos os direitos reservados.",
+    "builtWith": "Construido com Next.js & Tailwind CSS"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Pagina nao encontrada",
+    "description": "A pagina que voce procura nao existe ou foi movida.",
+    "backHome": "Voltar ao Inicio"
+  }
+}
