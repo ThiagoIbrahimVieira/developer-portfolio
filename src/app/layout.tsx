@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Thiago Ibrahim",
   },
   description:
-    "Portfolio de Thiago Ibrahim - Software Developer focado em Backend, Full Stack e Inteligencia Artificial. Construindo solucoes modernas com programacao e IA.",
+    "Portfólio de Thiago Ibrahim — Software Developer focado em Backend, Full Stack e Inteligência Artificial. Construindo soluções modernas com programação e IA.",
   keywords: [
     "Thiago Ibrahim",
     "Software Developer",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Thiago Ibrahim - Portfolio",
     title: "Thiago Ibrahim | Software Developer",
     description:
-      "Software Developer focado em Backend, Full Stack e Inteligencia Artificial.",
+      "Software Developer focado em Backend, Full Stack e Inteligência Artificial.",
     images: [
       {
         url: "/og-image.png",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Thiago Ibrahim | Software Developer",
     description:
-      "Software Developer focado em Backend, Full Stack e Inteligencia Artificial.",
+      "Software Developer focado em Backend, Full Stack e Inteligência Artificial.",
     images: ["/og-image.png"],
   },
   robots: {

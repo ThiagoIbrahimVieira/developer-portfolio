@@ -19,7 +19,7 @@ export default function Footer() {
               {t.footer.builtWith}
             </span>
             <a
-              href="https://github.com/ThiagoIbrahimVieira"
+              href={`https://github.com/${t.github.username}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-tertiary hover:text-text-primary transition-colors duration-200"

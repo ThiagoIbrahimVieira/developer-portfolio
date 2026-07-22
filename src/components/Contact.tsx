@@ -125,7 +125,7 @@ export default function Contact() {
                 <Mail className="w-5 h-5 text-accent" />
               </div>
               <div>
-                <p className="text-text-tertiary text-xs uppercase tracking-wider">Email</p>
+                <p className="text-text-tertiary text-xs uppercase tracking-wider">{t.contact.emailLabel}</p>
                 <p className="text-text-primary text-sm">thiagoibrahimvieira@gmail.com</p>
               </div>
             </div>
@@ -135,8 +135,8 @@ export default function Contact() {
                 <MapPin className="w-5 h-5 text-accent" />
               </div>
               <div>
-                <p className="text-text-tertiary text-xs uppercase tracking-wider">Location</p>
-                <p className="text-text-primary text-sm">Brazil</p>
+                <p className="text-text-tertiary text-xs uppercase tracking-wider">{t.contact.location}</p>
+                <p className="text-text-primary text-sm">{t.contact.country}</p>
               </div>
             </div>
           </FadeIn>
@@ -154,7 +154,7 @@ export default function Contact() {
                   onChange={(e) => handleChange('name', e.target.value)}
                   onBlur={() => handleBlur('name')}
                   className={inputClasses('name')}
-                  placeholder="John Doe"
+                  placeholder={t.contact.placeholderName}
                 />
                 <AnimatePresence>
                   {errors.name && touched.name && (
@@ -208,7 +208,7 @@ export default function Contact() {
                   onChange={(e) => handleChange('message', e.target.value)}
                   onBlur={() => handleBlur('message')}
                   className={`${inputClasses('message')} resize-none`}
-                  placeholder="..."
+                  placeholder={t.contact.placeholderMessage}
                 />
                 <AnimatePresence>
                   {errors.message && touched.message && (

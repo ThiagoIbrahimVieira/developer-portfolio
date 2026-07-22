@@ -8,17 +8,28 @@ import { useLanguage } from '@/lib/LanguageContext';
 import FadeIn from './ui/FadeIn';
 import StaggerChildren, { staggerItem } from './ui/StaggerChildren';
 
-const statusColors: Record<string, string> = {
-  'In Development': 'bg-success/15 text-success border-success/20',
-  'Em desenvolvimento': 'bg-success/15 text-success border-success/20',
-  'En Desarrollo': 'bg-success/15 text-success border-success/20',
-  'Completed': 'bg-accent/15 text-accent border-accent/20',
-  'Planning': 'bg-warning/15 text-warning border-warning/20',
+const statusColorMap: Record<string, string> = {
+  inDevelopment: 'bg-success/15 text-success border-success/20',
+  completed: 'bg-accent/15 text-accent border-accent/20',
+  planning: 'bg-warning/15 text-warning border-warning/20',
+};
+
+const statusLabelMap: Record<string, string> = {
+  inDevelopment: 'statusInDevelopment',
+  completed: 'statusCompleted',
+  planning: 'statusPlanning',
 };
 
 export default function Projects() {
   const { t } = useLanguage();
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
+  const getStatusLabel = (code: string): string => {
+    const key = statusLabelMap[code];
+    if (!key) return code;
+    const val = t.projects[key as keyof typeof t.projects];
+    return typeof val === 'string' ? val : code;
+  };
 
   return (
     <section id="projects" className="section-padding">
@@ -41,10 +52,10 @@ export default function Projects() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <span className="text-4xl font-bold text-accent/10">{project.name.charAt(0)}</span>
                 </div>
-                {project.status && (
+                {project.statusCode && (
                   <div className="absolute top-3 right-3">
-                    <span className={`px-2.5 py-1 text-xs font-medium rounded-full border ${statusColors[project.status] || 'bg-bg-card text-text-secondary border-border'}`}>
-                      {project.status}
+                    <span className={`px-2.5 py-1 text-xs font-medium rounded-full border ${statusColorMap[project.statusCode] || 'bg-bg-card text-text-secondary border-border'}`}>
+                      {getStatusLabel(project.statusCode)}
                     </span>
                   </div>
                 )}
@@ -91,6 +102,8 @@ export default function Projects() {
                   <div className="mt-auto">
                     <button
                       onClick={() => setExpandedIndex(expandedIndex === index ? null : index)}
+                      aria-expanded={expandedIndex === index}
+                      aria-controls={`project-details-${index}`}
                       className="inline-flex items-center gap-1.5 text-xs text-accent hover:text-accent-hover transition-colors duration-200"
                     >
                       {t.projects.details}
@@ -105,6 +118,7 @@ export default function Projects() {
                     <AnimatePresence>
                       {expandedIndex === index && (
                         <motion.div
+                          id={`project-details-${index}`}
                           initial={{ height: 0, opacity: 0 }}
                           animate={{ height: 'auto', opacity: 1 }}
                           exit={{ height: 0, opacity: 0 }}

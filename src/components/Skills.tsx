@@ -14,18 +14,11 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 const levelColors: Record<string, string> = {
-  'Comfortable': 'bg-success/15 text-success',
-  'Confortavel': 'bg-success/15 text-success',
-  'Comodo': 'bg-success/15 text-success',
-  'Practicing': 'bg-accent/15 text-accent',
-  'Praticando': 'bg-accent/15 text-accent',
-  'Practicando': 'bg-accent/15 text-accent',
-  'Learning': 'bg-warning/15 text-warning',
-  'Aprendendo': 'bg-warning/15 text-warning',
-  'Currently Studying': 'bg-purple-500/15 text-purple-400',
-  'Estudando': 'bg-purple-500/15 text-purple-400',
-  'Future Goal': 'bg-text-tertiary/15 text-text-tertiary',
-  'Futuro': 'bg-text-tertiary/15 text-text-tertiary',
+  comfortable: 'bg-success/15 text-success',
+  practicing: 'bg-accent/15 text-accent',
+  learning: 'bg-warning/15 text-warning',
+  studying: 'bg-purple-500/15 text-purple-400',
+  future: 'bg-text-tertiary/15 text-text-tertiary',
 };
 
 export default function Skills() {
@@ -66,7 +59,7 @@ export default function Skills() {
                           {skill.name}
                         </span>
                         <span className={`px-1.5 py-0.5 text-[10px] font-medium rounded ${levelColors[skill.level] || 'bg-bg-secondary text-text-tertiary'}`}>
-                          {skill.level}
+                          {t.skills.levelLabels[skill.level as keyof typeof t.skills.levelLabels] || skill.level}
                         </span>
                       </div>
                       <p className="text-xs text-text-tertiary leading-relaxed">

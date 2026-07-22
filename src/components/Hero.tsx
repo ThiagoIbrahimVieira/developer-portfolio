@@ -132,7 +132,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://github.com/ThiagoIbrahimVieira"
+                href={`https://github.com/${t.github.username}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-premium inline-flex items-center gap-2 px-7 py-3.5 bg-bg-card hover:bg-bg-card-hover text-text-primary font-semibold rounded-xl border border-border hover:border-accent/30 hover:shadow-lg hover:shadow-black/20 active:scale-[0.98] transition-all duration-250"
@@ -173,7 +173,7 @@ export default function Hero() {
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
           className="flex flex-col items-center gap-2 text-text-tertiary"
         >
-          <span className="text-xs tracking-widest uppercase">Scroll</span>
+          <span className="text-xs tracking-widest uppercase">{t.hero.scroll}</span>
           <ChevronDown className="w-4 h-4" />
         </motion.div>
       </motion.div>

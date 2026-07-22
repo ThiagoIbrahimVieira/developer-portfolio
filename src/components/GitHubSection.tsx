@@ -23,11 +23,12 @@ const languageColors: Record<string, string> = {
 };
 
 export default function GitHubSection() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
   const { profile, repos, topLanguages, totalStars, loading, error } = useGitHub();
 
   const formatDate = (dateStr: string) => {
-    return new Date(dateStr).toLocaleDateString('en-US', {
+    const localeMap: Record<string, string> = { pt: 'pt-BR', en: 'en-US', es: 'es-ES' };
+    return new Date(dateStr).toLocaleDateString(localeMap[locale] || 'en-US', {
       month: 'short',
       day: 'numeric',
       year: 'numeric',
@@ -91,7 +92,7 @@ export default function GitHubSection() {
                   <h3 className="text-lg font-semibold text-text-primary group-hover:text-accent transition-colors">
                     @{t.github.username}
                   </h3>
-                  <p className="text-text-secondary text-sm">GitHub Profile</p>
+                  <p className="text-text-secondary text-sm">{t.github.profile}</p>
                 </div>
                 <ExternalLink className="w-5 h-5 text-text-tertiary group-hover:text-accent transition-colors ml-auto" />
               </div>

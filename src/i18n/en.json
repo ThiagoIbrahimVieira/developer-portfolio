@@ -6,12 +6,12 @@
     "skills": "Skills",
     "journey": "Journey",
     "github": "GitHub",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language"
   },
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Thiago Ibrahim",
-    "fullName": "Thiago Ibrahim Branco Nardo Vieira",
     "titles": [
       "Software Developer",
       "Backend Developer",
@@ -19,11 +19,12 @@
     ],
     "tagline": "Building modern solutions with programming and Artificial Intelligence.",
     "primaryCta": "View Projects",
-    "secondaryCta": "GitHub"
+    "secondaryCta": "GitHub",
+    "scroll": "Scroll"
   },
   "about": {
     "sectionTitle": "About Me",
-    "description": "I'm a Brazilian student passionate about technology and software development. Currently focused on Backend Development, Software Architecture and Artificial Intelligence, I always seek to learn and evolve through practical projects and real-world applications.",
+    "description": "I'm a Brazilian student passionate about technology and software development. Currently focused on Backend Development, Software Architecture, and Artificial Intelligence, I consistently seek to learn and grow through practical projects and real-world applications.",
     "goal": "Become a Software Engineer capable of building complete products using software engineering and AI.",
     "highlights": [
       {
@@ -32,7 +33,7 @@
       },
       {
         "title": "Backend Focused",
-        "description": "Interested in software architecture, scalable systems and development best practices."
+        "description": "Interested in software architecture, scalable systems, and development best practices."
       },
       {
         "title": "AI Enthusiast",
@@ -52,24 +53,26 @@
     },
     "goal": {
       "title": "Goal",
-      "description": "Create useful, scalable and modern software solutions."
+      "description": "Create useful, scalable, and modern software solutions."
     }
   },
   "projects": {
     "sectionTitle": "Projects",
-    "viewProject": "View Project",
     "viewCode": "Code",
     "architecture": "Architecture",
     "challenge": "Main Challenge",
     "lessons": "Lessons Learned",
     "future": "Future Improvements",
     "details": "Details",
+    "statusInDevelopment": "In Development",
+    "statusCompleted": "Completed",
+    "statusPlanning": "Planning",
     "items": [
       {
         "name": "AI Interview Platform",
         "description": "Intelligent platform to practice technical interviews with automated AI feedback.",
         "tech": ["Python", "AI/ML", "Backend"],
-        "status": "In Development",
+        "statusCode": "inDevelopment",
         "github": "https://github.com/ThiagoIbrahimVieira",
         "architecture": "Backend API with Python processing AI models for interview analysis and feedback generation.",
         "challenge": "Implementing real-time AI analysis while maintaining low latency for a smooth interview experience.",
@@ -80,45 +83,52 @@
   },
   "skills": {
     "sectionTitle": "Skills",
+    "levelLabels": {
+      "comfortable": "Comfortable",
+      "practicing": "Practicing",
+      "learning": "Learning",
+      "studying": "Studying",
+      "future": "Future Goal"
+    },
     "categories": [
       {
         "name": "Programming",
         "icon": "Code2",
         "items": [
-          { "name": "Java", "level": "Practicing", "description": "Object-oriented programming and data structures" },
-          { "name": "Python", "level": "Learning", "description": "Scripting, AI/ML applications" },
-          { "name": "TypeScript", "level": "Comfortable", "description": "Type-safe web development" },
-          { "name": "JavaScript", "level": "Comfortable", "description": "Modern ES6+ and DOM manipulation" }
+          { "name": "Java", "level": "practicing", "description": "Object-oriented programming and data structures" },
+          { "name": "Python", "level": "learning", "description": "Scripting, AI/ML applications" },
+          { "name": "TypeScript", "level": "comfortable", "description": "Type-safe web development" },
+          { "name": "JavaScript", "level": "comfortable", "description": "Modern ES6+ and DOM manipulation" }
         ]
       },
       {
         "name": "Backend",
         "icon": "Server",
         "items": [
-          { "name": "REST APIs", "level": "Practicing", "description": "Designing and consuming RESTful services" },
-          { "name": "SQL", "level": "Learning", "description": "Relational database design and queries" },
-          { "name": "Spring Boot", "level": "Future Goal", "description": "Enterprise Java framework" },
-          { "name": "Docker", "level": "Future Goal", "description": "Containerization and deployment" }
+          { "name": "REST APIs", "level": "practicing", "description": "Designing and consuming RESTful services" },
+          { "name": "SQL", "level": "learning", "description": "Relational database design and queries" },
+          { "name": "Spring Boot", "level": "future", "description": "Enterprise Java framework" },
+          { "name": "Docker", "level": "future", "description": "Containerization and deployment" }
         ]
       },
       {
         "name": "Tools & Practices",
         "icon": "Wrench",
         "items": [
-          { "name": "Git", "level": "Comfortable", "description": "Version control and collaboration" },
-          { "name": "GitHub", "level": "Comfortable", "description": "Repositories, PRs, and CI/CD" },
-          { "name": "VS Code", "level": "Comfortable", "description": "Primary development environment" },
-          { "name": "Linux", "level": "Practicing", "description": "Command line and server management" }
+          { "name": "Git", "level": "comfortable", "description": "Version control and collaboration" },
+          { "name": "GitHub", "level": "comfortable", "description": "Repositories, PRs, and CI/CD" },
+          { "name": "VS Code", "level": "comfortable", "description": "Primary development environment" },
+          { "name": "Linux", "level": "practicing", "description": "Command line and server management" }
         ]
       },
       {
         "name": "AI & ML",
         "icon": "BrainCircuit",
         "items": [
-          { "name": "Machine Learning", "level": "Currently Studying", "description": "Supervised and unsupervised learning" },
-          { "name": "NLP", "level": "Learning", "description": "Natural language processing techniques" },
-          { "name": "Computer Vision", "level": "Future Goal", "description": "Image recognition and analysis" },
-          { "name": "Deep Learning", "level": "Future Goal", "description": "Neural networks and frameworks" }
+          { "name": "Machine Learning", "level": "studying", "description": "Supervised and unsupervised learning" },
+          { "name": "NLP", "level": "learning", "description": "Natural language processing techniques" },
+          { "name": "Computer Vision", "level": "future", "description": "Image recognition and analysis" },
+          { "name": "Deep Learning", "level": "future", "description": "Neural networks and frameworks" }
         ]
       }
     ]
@@ -166,19 +176,13 @@
   "github": {
     "sectionTitle": "GitHub",
     "description": "Check out my contributions and projects on GitHub.",
-    "viewProfile": "View Profile",
     "username": "ThiagoIbrahimVieira",
     "repositories": "Repositories",
     "followers": "Followers",
-    "following": "Following",
     "stars": "Stars",
     "topLanguages": "Top Languages",
     "recentRepos": "Recent Repositories",
-    "latestCommit": "Latest Commit",
-    "loading": "Loading GitHub data...",
-    "error": "Could not load GitHub data.",
-    "repos": "repos",
-    "fork": "fork"
+    "profile": "GitHub Profile"
   },
   "contact": {
     "sectionTitle": "Contact",
@@ -194,14 +198,18 @@
     "emailRequired": "Email is required",
     "emailInvalid": "Please enter a valid email",
     "messageRequired": "Message is required",
-    "messageMin": "Message must be at least 10 characters"
+    "messageMin": "Message must be at least 10 characters",
+    "emailLabel": "Email",
+    "location": "Location",
+    "country": "Brazil",
+    "placeholderName": "John Doe",
+    "placeholderMessage": "How can I help?"
   },
   "footer": {
     "copyright": "Thiago Ibrahim. All rights reserved.",
     "builtWith": "Built with Next.js & Tailwind CSS"
   },
   "notFound": {
-    "title": "404",
     "subtitle": "Page not found",
     "description": "The page you're looking for doesn't exist or has been moved.",
     "backHome": "Back to Home"

@@ -1,42 +1,43 @@
 {
   "nav": {
     "home": "Inicio",
-    "about": "Sobre Mi",
+    "about": "Sobre Mí",
     "projects": "Proyectos",
     "skills": "Habilidades",
     "journey": "Trayectoria",
     "github": "GitHub",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "language": "Idioma"
   },
   "hero": {
     "greeting": "Hola, soy",
     "name": "Thiago Ibrahim",
-    "fullName": "Thiago Ibrahim Branco Nardo Vieira",
     "titles": [
       "Desarrollador de Software",
       "Desarrollador Backend",
       "Entusiasta de IA"
     ],
-    "tagline": "Construyendo soluciones modernas con programacion e Inteligencia Artificial.",
+    "tagline": "Construyendo soluciones modernas con programación e Inteligencia Artificial.",
     "primaryCta": "Ver Proyectos",
-    "secondaryCta": "GitHub"
+    "secondaryCta": "GitHub",
+    "scroll": "Desplazar"
   },
   "about": {
-    "sectionTitle": "Sobre Mi",
-    "description": "Soy estudiante brasileño apasionado por la tecnologia y el desarrollo de software. Actualmente enfocado en Desarrollo Backend, Arquitectura de Software e Inteligencia Artificial, busco siempre aprender y evolucionar a traves de proyectos practicos y aplicaciones reales.",
-    "goal": "Convertirme en un Ingeniero de Software capaz de construir productos completos utilizando ingenieria de software e IA.",
+    "sectionTitle": "Sobre Mí",
+    "description": "Soy estudiante brasileño apasionado por la tecnología y el desarrollo de software. Actualmente enfocado en Desarrollo Backend, Arquitectura de Software e Inteligencia Artificial, busco siempre aprender y evolucionar a través de proyectos prácticos y aplicaciones reales.",
+    "goal": "Convertirme en un Ingeniero de Software capaz de construir productos completos utilizando ingeniería de software e IA.",
     "highlights": [
       {
         "title": "Estudiante Dedicado",
-        "description": "Aprendiendo Java y Python para construir una base solida en programacion."
+        "description": "Aprendiendo Java y Python para construir una base sólida en programación."
       },
       {
         "title": "Enfoque en Backend",
-        "description": "Interesado en arquitectura de software, sistemas escalables y buenas practicas de desarrollo."
+        "description": "Interesado en arquitectura de software, sistemas escalables y buenas prácticas de desarrollo."
       },
       {
         "title": "Entusiasta de IA",
-        "description": "Explorando como la Inteligencia Artificial puede resolver problemas reales y crear soluciones innovadoras."
+        "description": "Explorando cómo la Inteligencia Artificial puede resolver problemas reales y crear soluciones innovadoras."
       }
     ]
   },
@@ -52,73 +53,82 @@
     },
     "goal": {
       "title": "Objetivo",
-      "description": "Crear soluciones de software utiles, escalables y modernas."
+      "description": "Crear soluciones de software útiles, escalables y modernas."
     }
   },
   "projects": {
     "sectionTitle": "Proyectos",
-    "viewProject": "Ver Proyecto",
-    "viewCode": "Codigo",
+    "viewCode": "Código",
     "architecture": "Arquitectura",
-    "challenge": "Principal Desafio",
+    "challenge": "Principal Desafío",
     "lessons": "Aprendizajes",
     "future": "Mejoras Futuras",
     "details": "Detalles",
+    "statusInDevelopment": "En Desarrollo",
+    "statusCompleted": "Completado",
+    "statusPlanning": "En Planificación",
     "items": [
       {
         "name": "AI Interview Platform",
-        "description": "Plataforma inteligente para practicar entrevistas tecnicas con retroalimentacion automatizada por IA.",
+        "description": "Plataforma inteligente para practicar entrevistas técnicas con retroalimentación automatizada por IA.",
         "tech": ["Python", "AI/ML", "Backend"],
-        "status": "En Desarrollo",
+        "statusCode": "inDevelopment",
         "github": "https://github.com/ThiagoIbrahimVieira",
-        "architecture": "API Backend con Python procesando modelos de IA para analisis de entrevistas y generacion de retroalimentacion.",
-        "challenge": "Implementar analisis en tiempo real con IA mientras mantenia baja latencia para una experiencia fluida.",
-        "lessons": "Profundice mi entendimiento de diseno de APIs, patrones de integracion con IA y procesamiento asincrono.",
-        "future": ["Analisis de voz en tiempo real", "Soporte multi-idioma", "Dashboard de progreso"]
+        "architecture": "API Backend con Python procesando modelos de IA para análisis de entrevistas y generación de retroalimentación.",
+        "challenge": "Implementar análisis en tiempo real con IA mientras mantenía baja latencia para una experiencia fluida.",
+        "lessons": "Profundicé mi entendimiento de diseño de APIs, patrones de integración con IA y procesamiento asíncrono.",
+        "future": ["Análisis de voz en tiempo real", "Soporte multi-idioma", "Dashboard de progreso"]
       }
     ]
   },
   "skills": {
     "sectionTitle": "Habilidades",
+    "levelLabels": {
+      "comfortable": "Cómodo",
+      "practicing": "Practicando",
+      "learning": "Aprendiendo",
+      "studying": "Estudiando",
+      "future": "Futuro"
+    },
     "categories": [
       {
-        "name": "Programacion",
+        "name": "Programación",
         "icon": "Code2",
         "items": [
-          { "name": "Java", "level": "Practicando", "description": "Programacion orientada a objetos y estructuras de datos" },
-          { "name": "Python", "level": "Aprendiendo", "description": "Scripting, aplicaciones de IA/ML" },
-          { "name": "TypeScript", "level": "Comodo", "description": "Desarrollo web con tipos" },
-          { "name": "JavaScript", "level": "Comodo", "description": "ES6 moderno y manipulacion del DOM" }
+          { "name": "Java", "level": "practicing", "description": "Programación orientada a objetos y estructuras de datos" },
+          { "name": "Python", "level": "learning", "description": "Scripting, aplicaciones de IA/ML" },
+          { "name": "TypeScript", "level": "comfortable", "description": "Desarrollo web con tipos" },
+          { "name": "JavaScript", "level": "comfortable", "description": "ES6 moderno y manipulación del DOM" }
         ]
       },
       {
         "name": "Backend",
         "icon": "Server",
         "items": [
-          { "name": "REST APIs", "level": "Practicando", "description": "Diseno y consumo de servicios RESTful" },
-          { "name": "SQL", "level": "Aprendiendo", "description": "Diseno de bases relacionales y consultas" },
-          { "name": "Spring Boot", "level": "Futuro", "description": "Framework empresarial Java" },
-          { "name": "Docker", "level": "Futuro", "description": "Contenedorizacion y despliegue" }
+          { "name": "REST APIs", "level": "practicing", "description": "Diseño y consumo de servicios RESTful" },
+          { "name": "SQL", "level": "learning", "description": "Diseño de bases relacionales y consultas" },
+          { "name": "Spring Boot", "level": "future", "description": "Framework empresarial Java" },
+          { "name": "Docker", "level": "future", "description": "Contenedorización y despliegue" }
         ]
       },
       {
         "name": "Herramientas",
         "icon": "Wrench",
         "items": [
-          { "name": "Git", "level": "Comodo", "description": "Control de versiones y colaboracion" },
-          { "name": "GitHub", "level": "Comodo", "description": "Repositorios, PRs y CI/CD" },
-          { "name": "VS Code", "level": "Comodo", "description": "Entorno de desarrollo principal" },
-          { "name": "Linux", "level": "Practicando", "description": "Linea de comandos y gestion de servidores" }
+          { "name": "Git", "level": "comfortable", "description": "Control de versiones y colaboración" },
+          { "name": "GitHub", "level": "comfortable", "description": "Repositorios, PRs y CI/CD" },
+          { "name": "VS Code", "level": "comfortable", "description": "Entorno de desarrollo principal" },
+          { "name": "Linux", "level": "practicing", "description": "Línea de comandos y gestión de servidores" }
         ]
       },
       {
         "name": "IA & ML",
         "icon": "BrainCircuit",
         "items": [
-          { "name": "Machine Learning", "level": "Estudiando", "description": "Aprendizaje supervisado y no supervisado" },
-          { "name": "NLP", "level": "Aprendiendo", "description": "Tecnicas de procesamiento de lenguaje natural" },
-          { "name": "Computer Vision", "level": "Futuro", "description": "Reconocimiento y analisis de imagenes" },
-          { "name": "Deep Learning", "level": "Futuro", "description": "Redes neuronales y frameworks" }
+          { "name": "Machine Learning", "level": "studying", "description": "Aprendizaje supervisado y no supervisado" },
+          { "name": "NLP", "level": "learning", "description": "Técnicas de procesamiento de lenguaje natural" },
+          { "name": "Computer Vision", "level": "future", "description": "Reconocimiento y análisis de imágenes" },
+          { "name": "Deep Learning", "level": "future", "description": "Redes neuronales y frameworks" }
         ]
       }
     ]
@@ -128,28 +138,28 @@
     "milestones": [
       {
         "period": "Inicio",
-        "title": "Primeros Pasos en Programacion",
-        "description": "Comence el camino en la programacion, aprendiendo conceptos fundamentales como variables, ciclos y logica."
+        "title": "Primeros Pasos en Programación",
+        "description": "Comencé el camino en la programación, aprendiendo conceptos fundamentales como variables, ciclos y lógica."
       },
       {
         "period": "Temprano",
         "title": "Aprendiendo Java",
-        "description": "Me sumerji en Java, entendiendo sintaxis, tipos de datos y estructura basica de programas."
+        "description": "Me sumergí en Java, entendiendo sintaxis, tipos de datos y estructura básica de programas."
       },
       {
         "period": "Creciendo",
-        "title": "Programacion Orientada a Objetos",
-        "description": "Domine los principios de OOP: clases, objetos, herencia, polimorfismo y encapsulamiento."
+        "title": "Programación Orientada a Objetos",
+        "description": "Dominé los principios de OOP: clases, objetos, herencia, polimorfismo y encapsulamiento."
       },
       {
         "period": "Construyendo",
         "title": "Construyendo Proyectos Reales",
-        "description": "Aplique conocimientos construyendo proyectos practicos, aprendiendo control de versiones y flujos de desarrollo."
+        "description": "Apliqué conocimientos construyendo proyectos prácticos, aprendiendo control de versiones y flujos de desarrollo."
       },
       {
         "period": "Expandiendo",
         "title": "Estudiando Desarrollo Backend",
-        "description": "Explore APIs, bases de datos, arquitectura de servidores y diseno de sistemas escalables."
+        "description": "Exploré APIs, bases de datos, arquitectura de servidores y diseño de sistemas escalables."
       },
       {
         "period": "Actual",
@@ -159,51 +169,49 @@
       {
         "period": "Futuro",
         "title": "Ingeniero de Software",
-        "description": "Construyendo productos completos, escalables y con impacto real usando ingenieria de software e IA."
+        "description": "Construyendo productos completos, escalables y con impacto real usando ingeniería de software e IA."
       }
     ]
   },
   "github": {
     "sectionTitle": "GitHub",
-    "description": "Mira mis contribuciones y proyectos en GitHub.",
-    "viewProfile": "Ver Perfil",
+    "description": "Revisa mis contribuciones y proyectos en GitHub.",
     "username": "ThiagoIbrahimVieira",
     "repositories": "Repositorios",
     "followers": "Seguidores",
-    "following": "Siguiendo",
     "stars": "Estrellas",
     "topLanguages": "Principales Lenguajes",
     "recentRepos": "Repositorios Recientes",
-    "latestCommit": "Ultimo Commit",
-    "loading": "Cargando datos de GitHub...",
-    "error": "No se pudieron cargar los datos de GitHub.",
-    "repos": "repos",
-    "fork": "fork"
+    "profile": "Perfil de GitHub"
   },
   "contact": {
     "sectionTitle": "Contacto",
-    "description": "Tienes una pregunta o quieres trabajar juntos? Contactame!",
+    "description": "¿Tienes una pregunta o quieres trabajar juntos? ¡Contáctame!",
     "name": "Nombre",
     "email": "Email",
     "message": "Mensaje",
     "send": "Enviar",
     "sending": "Enviando...",
-    "success": "Mensaje enviado con exito!",
+    "success": "¡Mensaje enviado con éxito!",
     "error": "Error al enviar el mensaje. Intenta de nuevo.",
     "nameRequired": "El nombre es obligatorio",
     "emailRequired": "El email es obligatorio",
-    "emailInvalid": "Por favor, ingresa un email valido",
+    "emailInvalid": "Por favor, ingresa un email válido",
     "messageRequired": "El mensaje es obligatorio",
-    "messageMin": "El mensaje debe tener al menos 10 caracteres"
+    "messageMin": "El mensaje debe tener al menos 10 caracteres",
+    "emailLabel": "Email",
+    "location": "Ubicación",
+    "country": "Brasil",
+    "placeholderName": "Juan Pérez",
+    "placeholderMessage": "¿Cómo puedo ayudar?"
   },
   "footer": {
     "copyright": "Thiago Ibrahim. Todos los derechos reservados.",
     "builtWith": "Construido con Next.js & Tailwind CSS"
   },
   "notFound": {
-    "title": "404",
-    "subtitle": "Pagina no encontrada",
-    "description": "La pagina que buscas no existe o ha sido movida.",
+    "subtitle": "Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
     "backHome": "Volver al Inicio"
   }
 }
