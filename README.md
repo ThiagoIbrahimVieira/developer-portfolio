@@ -1,3 +1,7 @@
+# !LOOK IN THE WIKI AREA!
+
+
+
 # 🚀 Portfólio Pessoal - Thiago Ibrahim
 
 Meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e minha evolução no desenvolvimento de software.
